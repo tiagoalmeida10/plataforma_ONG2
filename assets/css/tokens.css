@@ -1,0 +1,15 @@
+:root{
+  --color-bg:#ffffff; --color-surface:#f7f9fc; --color-primary:#0b57d0; --color-primary-600:#0a47ad;
+  --color-primary-100:#e6f0ff; --color-secondary:#0b1526; --color-accent:#22c55e; --color-warning:#ffbf47;
+  --color-danger:#dc2626; --color-neutral-900:#0b1526; --color-neutral-700:#364158; --color-neutral-500:#6b7280;
+  --color-neutral-300:#d1d5db; --color-neutral-100:#f3f4f6;
+  --font-xs:.75rem; --font-sm:.875rem; --font-md:1rem; --font-lg:1.25rem; --font-xl:1.5rem; --font-2xl:2rem; --font-3xl:2.5rem;
+  --space-1:8px; --space-2:16px; --space-3:24px; --space-4:32px; --space-5:48px; --space-6:64px;
+  --radius-sm:8px; --radius-md:12px; --radius-lg:16px; --radius-xl:20px;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.08); --shadow-md:0 4px 12px rgba(0,0,0,.12); --shadow-lg:0 12px 24px rgba(0,0,0,.18);
+}
+@media (min-width:480px){:root{--bp:480}}
+@media (min-width:640px){:root{--bp:640}}
+@media (min-width:768px){:root{--bp:768}}
+@media (min-width:1024px){:root{--bp:1024}}
+@media (min-width:1280px){:root{--bp:1280}}
