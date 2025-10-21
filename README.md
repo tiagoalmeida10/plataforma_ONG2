@@ -1,10 +1,13 @@
-# Plataforma ONG – Ajustada (Dropdown desktop + Hambúrguer mobile)
+# Plataforma ONG – Entrega II (CSS3, Leiautes e Componentes)
 
-Ajustes aplicados:
-- **Dropdown desktop** alinhado à direita do item e deslocado 8px para baixo.
-- **Menu mobile (hambúrguer)** como painel full-width abaixo do header; fecha ao clicar em links; `aria-expanded` atualizado.
-- Estrutura CSS modular (tokens/base/layout/components/utilities) e JS com máscaras/validação/toast/modal.
 
-Arquivos modificados principais:
-- `assets/css/layout.css` → posicionamento do submenu (desktop) e painel mobile.
-- `assets/js/main.js` → controle de `aria-expanded`, fechamento automático e clique do dropdown no mobile.
+## Estrutura CSS (modular)
+- `assets/css/tokens.css` – cores, tipografia, espaçamentos (8/16/24/32/48/64), raios, sombras, breakpoints.
+- `assets/css/base.css` – resets leves, tipografia base, botões, badges/tags.
+- `assets/css/layout.css` – header/nav (dropdown + mobile), hero, grid 12 col, cards, footer.
+- `assets/css/components.css` – formulários, alerts, toast, modal.
+- `assets/css/utilities.css` – utilitários (margem, padding, flex, etc.).
+- `assets/css/main.css` – agrega os módulos via `@import`.
+
+## JS
+- `assets/js/main.js` – máscaras (CPF, telefone, CEP), nav mobile, dropdown em mobile, validação visual, toast e modal.
